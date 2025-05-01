@@ -126,7 +126,7 @@ function foliox_tm_modalbox_news(){
 		var title	 	= parent.find('.details .title a').text();
 		modalBox.addClass('opened');
 		modalBox.find('.description_wrap').html(content);
-		modalBox.find('.news_popup_informations').prepend('<div class="image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
+		modalBox.find('.news_popup_informations').prepend('<div class="image"><img src="img/thumbs/4-2.webp" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
 		modalBox.find('.news_popup_informations .image').after('<div class="details"><div class="meta">'+meta+'</div><div class="title"><h3>'+title+'</h3></div><div>');
 		foliox_tm_data_images();
 		return false;
@@ -158,7 +158,7 @@ function foliox_tm_modalbox_portfolio(){
 		var details 	= parent.find('.details').html();
 		modalBox.addClass('opened');
 		modalBox.find('.description_wrap').html(content);
-		modalBox.find('.popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
+		modalBox.find('.popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.webp" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
 		modalBox.find('.popup_details .top_image').after('<div class="portfolio_main_title">'+details+'<div>');
 		foliox_tm_data_images();
 		return false;
